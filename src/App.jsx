@@ -11,7 +11,6 @@ function App() {
   const [currentUrl, setCurrentUrl] = useState(url_of_pages.home)
 
   const onMouseDown = (e) => {
-    console.log(e.target.name)
     switch (e.target.name) {
       case "about nav":
         setCurrentUrl(url_of_pages.about)
