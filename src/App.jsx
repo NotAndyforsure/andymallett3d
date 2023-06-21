@@ -22,8 +22,15 @@ function App() {
       case "home nav":
         setCurrentUrl(url_of_pages.home)
         break
-      default:
-        setCurrentUrl(url_of_pages.home)
+      case "upwork nav":
+        window.location.href = "https://www.upwork.com/freelancers/~01693b52ecbcedc9d9"
+        break
+      case "github nav":
+        window.location.href = "https://github.com/NotAndyforsure"
+        break
+      case "gmail nav":
+        window.location.href = "mailto:agcmall05@gmail.com"
+        break
     }
   }
 
